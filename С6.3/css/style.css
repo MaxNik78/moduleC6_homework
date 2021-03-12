@@ -1,0 +1,59 @@
+.bloсk {
+  display: flex;
+  width: 500px;
+  min-height: 650px;
+  background: #e0e0e0;
+  flex-direction: column;
+}
+
+.chatfield {
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.chatinput {
+  width: 260px;
+  height: 40px;
+  border: 3px;
+  border-style: solid;
+  border-color: #bbd8ed;
+}
+
+.chatbut {
+  border: none;
+  outline: none;
+  width: 100px;
+  height: 40px;
+  background: #bbd8ed;
+}
+
+.chatbut:hover {
+  background: yellow;
+}
+
+.chatbut:active {
+  background: red;
+}
+
+.chattext {
+  margin: 10px;
+  padding: 10px;
+  min-height: 548px;
+  border: 3px;
+  border-style: solid;
+  border-color: #bbd8ed;
+}
+
+.chatnewgeo {
+  display: none;
+  margin-left: 344px;
+  padding: 10px;
+  color: #4b88c6;
+  background: white;
+  border-style: solid;
+  border-color: #bbd8ed;
+  border-radius: 10px;
+  text-decoration: none;
+}
